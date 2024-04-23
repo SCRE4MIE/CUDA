@@ -2,7 +2,6 @@
 #include "device_launch_parameters.h"
 
 #include <stdio.h>
-#include <math.h>
 
 __global__ void kernel(int*arr_a, int*arr_b, int*arr_c, int m, int n, int k){
 
