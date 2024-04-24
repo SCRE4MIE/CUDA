@@ -20,3 +20,11 @@ ECC Enabled: No
 TCC Driver: No  
 Maximum threads per multiprocessor: 1536  
 Shared memory per multiprocessor: 102400 bytes  
+### Times:
+**CPU**: 927.14s  
+---
+**GPU**
+*kernel_loop.cu* : 1.387000s  
+*kernel.cu* : 155.864000s  
+*kernel_reduction.cu*: 6.763000s  
+*kernel_shared_mem.cu*: 7.277000s  
