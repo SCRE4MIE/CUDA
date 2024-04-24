@@ -1,4 +1,5 @@
 # Tested on RTX 4070 TI and AMD Ryzen 7 7800X3D
+## CUDA Toolkit 12.2  
 ## GPU INFO:  
 Device Number: 0  
 Device Name: NVIDIA GeForce RTX 4070 Ti  
