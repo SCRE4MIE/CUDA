@@ -141,7 +141,7 @@ int main(void){
         for(int j=0;j<n;j++){
             if(h_cpu_result[i *n + j] != h_gpu_result[i *n + j]){
                 checkpoint = false;
-                printf("%d != %d\n", h_cpu_result[i *n + j], h_gpu_result[i *n + j]);
+                // printf("%d != %d\n", h_cpu_result[i *n + j], h_gpu_result[i *n + j]);
             }
         }
     }
