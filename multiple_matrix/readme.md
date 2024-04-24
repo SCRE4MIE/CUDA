@@ -25,7 +25,7 @@ Shared memory per multiprocessor: 102400 bytes
 ---
 **GPU**  
 ---
-*kernel_loop.cu* wall time: 1.387000s  
-*kernel.cu* wall time: 155.864000s  
-*kernel_reduction.cu* wall time: 6.763000s  
-*kernel_shared_mem.cu* wall time: 7.277000s  
+*kernel_loop.cu* | wall time: 1.387000s  
+*kernel.cu* | wall time: 155.864000s  
+*kernel_reduction.cu* | wall time: 6.763000s  
+*kernel_shared_mem.cu* | wall time: 7.277000s  
