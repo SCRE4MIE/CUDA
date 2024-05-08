@@ -217,7 +217,6 @@ int main(void){
     begin = clock(); // start measure wall time
     // Function call
     quickSort(array_q, 0, size - 1);
-    // bubbleSort(array, size);
 
     end = clock(); // end measure wall time
     time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
